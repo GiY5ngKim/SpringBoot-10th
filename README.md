@@ -19,9 +19,6 @@ docker compose up -d
 
 ## Environment Variables (IntelliJ 실행 기준)
 IntelliJ → Run → Edit Configurations → Environment variables 에 아래 값 그대로 추가:
-```text
-DB_URL=jdbc:mysql://localhost:3306/umc10th;DB_USERNAME=root;DB_PASSWORD=student;JWT_SECRET=umc10th-springboot-secret-key-must-be-at-least-256-bits-long;JWT_EXPIRATION=86400000;KAKAO_REST_API_KEY=8b7f4f7a183f4566d81ef18b33489c9c;KAKAO_REST_API_SECRET=5iUIHIwj41t3jIHiwK28LdStxei6Eri9;KAKAO_REDIRECT_URI=http://localhost:8080/login/oauth2/code/kakao
-```
 
 ---
 
